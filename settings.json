@@ -1,0 +1,59 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/nick/projects/ClaudeHooksDebug/hooks/debug_logger.sh",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/nick/projects/ClaudeHooksDebug/hooks/debug_logger.sh",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/nick/projects/ClaudeHooksDebug/hooks/debug_logger.sh",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/nick/projects/ClaudeHooksDebug/hooks/debug_logger.sh",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/nick/projects/ClaudeHooksDebug/hooks/debug_logger.sh",
+            "async": true
+          }
+        ]
+      }
+    ]
+  }
+}
