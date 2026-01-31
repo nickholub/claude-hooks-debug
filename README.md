@@ -1,6 +1,6 @@
 # Claude Hooks Debug
 
-A debugging tool for [Claude Code](https://claude.ai/claude-code) hooks. Logs all hook events with full JSON payloads for inspection and debugging.
+A debugging tool for Claude Code hooks. Logs all hook events with full JSON payloads for inspection and debugging.
 
 ## Features
 
